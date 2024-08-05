@@ -48,8 +48,6 @@
                             <constraint firstItem="kiR-d1-FZk" firstAttribute="top" secondItem="zE7-gf-V7e" secondAttribute="bottom" constant="100" id="e8B-nq-21E"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RHw-EX-h0w" secondAttribute="trailing" constant="100" id="iE7-Xg-OHV"/>
                             <constraint firstItem="RHw-EX-h0w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="jOb-Th-1kp"/>
-                            <constraint firstItem="kiR-d1-FZk" firstAttribute="top" secondItem="zE7-gf-V7e" secondAttribute="bottom" constant="100" id="kmr-XD-yn2"/>
-                            <constraint firstItem="kiR-d1-FZk" firstAttribute="top" secondItem="zE7-gf-V7e" secondAttribute="bottom" constant="600" id="qLs-Bo-nfu"/>
                         </constraints>
                     </view>
                     <connections>
@@ -69,13 +67,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aso-xE-4bL">
-                                <rect key="frame" x="100" y="100" width="193" height="21"/>
+                                <rect key="frame" x="176" y="100" width="41.333333333333343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKG-ms-j0n">
-                                <rect key="frame" x="100" y="221" width="193" height="521"/>
+                                <rect key="frame" x="100" y="221" width="193" height="34.333333333333343"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
                                 <connections>
@@ -89,10 +87,8 @@
                             <constraint firstItem="Aso-xE-4bL" firstAttribute="top" secondItem="xCW-0E-kol" secondAttribute="top" constant="100" id="LYj-3K-372"/>
                             <constraint firstItem="dKG-ms-j0n" firstAttribute="leading" secondItem="xCW-0E-kol" secondAttribute="leading" constant="100" id="Pdy-uz-5tu"/>
                             <constraint firstItem="xCW-0E-kol" firstAttribute="trailing" secondItem="dKG-ms-j0n" secondAttribute="trailing" constant="100" id="j2h-c9-kcq"/>
-                            <constraint firstItem="xCW-0E-kol" firstAttribute="trailing" secondItem="Aso-xE-4bL" secondAttribute="trailing" constant="100" id="m5j-M3-6Cr"/>
-                            <constraint firstItem="xCW-0E-kol" firstAttribute="bottom" secondItem="dKG-ms-j0n" secondAttribute="bottom" constant="100" id="mDQ-jF-Mdb"/>
                             <constraint firstItem="dKG-ms-j0n" firstAttribute="top" secondItem="Aso-xE-4bL" secondAttribute="bottom" constant="100" id="mOW-5h-k8w"/>
-                            <constraint firstItem="Aso-xE-4bL" firstAttribute="leading" secondItem="xCW-0E-kol" secondAttribute="leading" constant="100" id="zOg-C5-QP2"/>
+                            <constraint firstItem="dKG-ms-j0n" firstAttribute="centerX" secondItem="Aso-xE-4bL" secondAttribute="centerX" id="s40-Z8-m8v"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="t4g-oN-lPg"/>
